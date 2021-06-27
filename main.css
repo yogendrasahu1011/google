@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    height: 99vh;
+    flex-direction: column;
+
+    justify-content: space-between;
+    flex-grow: inherit;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.left > a{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color: #212121;
+}
+.apps{
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+img{
+    margin: auto;
+}
+.center{
+    display: block;
+}
+.center>img{
+    display: block;
+    margin: auto;
+    width: 480px;
+}
+.search{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    font-size: 36px;
+    width: 620px;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.search input:focus{
+    outline: none;
+}
+.searchIcon{
+    position: relative;
+    font-size: 34px !important;
+    color: gray;
+    left: 44px;
+}
+.searchIcon:hover{
+    transform: scale(1.2);
+    color: rgb(60, 134, 231);
+}
+.mic{
+    position: relative;
+    font-size: 34px !important;
+    color: gray;
+    right: 44px;
+}
+.mic:hover{
+    transform: scale(1.2);
+    color: rgb(60, 134, 231);
+}
+a:hover{
+    transform: scale(1.1);
+    color: rgb(60, 134, 231);
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    
+}
+.bottom a{
+    font-size: 18px;
+}
+.actionButton{
+    text-align: center;
+    margin-top: 20px;
+}
+.actionButton button{
+    font-size: 18px;
+    padding: 10px;
+    width: 170px;
+    border-style: none;
+    border-radius: 5px;
+
+}
+.actionButton button:hover{
+    background-color: #eceaea;
+    box-shadow: rgb(194, 194, 194) 1px 1px;
+}
